@@ -29,7 +29,7 @@ module Handlers = {
   let handlesetCounter = (inputValue, _e) => SetCounter(inputValue);
 };
 
-let toStr = ReasonReact.stringToElement;
+let toStr = ReasonReact.string;
 
 let make = _children => {
   ...component,
@@ -56,8 +56,8 @@ let make = _children => {
       };
     <View>
       <Text> (currentCount |> string_of_int |> toStr) </Text>
-      <Button title="+" onPress=(self.reduce(Handlers.handleIncrement)) />
-      <Button title="-" onPress=(self.reduce(Handlers.handleDecrement)) />
+      <Button title="+" onPress=(_e => self.send(Increment)) />
+      <Button title="-" onPress=(_e => self.send(Decrement)) />
       <TextInput />
     </View>;
   },

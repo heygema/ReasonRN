@@ -15,17 +15,18 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "bs:test": "bsb -clean-world && bsb -make-world && jest"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
-    "bs-platform": "^2.2.3",
-    "bs-react-native": "^0.6.0",
+    "bs-platform": "^3.1.5",
+    "bs-react-native": "^0.8.0",
     "expo": "^26.0.0",
-    "react": "16.3.0-alpha.1",
-    "react-native": "0.54.0",
-    "reason-react": "^0.3.4"
+    "react": "^16.4.0",
+    "react-native": "^0.55.4",
+    "reason-react": "^0.4.2"
   }
 }
