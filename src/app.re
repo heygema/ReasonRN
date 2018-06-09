@@ -1,10 +1,16 @@
 open BsReactNative;
 
+module Styles = {
+  open Style;
+  let root = style([
+    flex @@ 1.,
+    justifyContent @@ Center,
+    alignItems @@ Center
+  ]);
+};
+
+
 let app = () =>
-  <View
-    style=Style.(
-            style([flex(1.), justifyContent(Center), alignItems(Center)])
-          )>
-    <Text> ("Counter App" |> ReasonReact.string) </Text>
+  <View style=Styles.root>
     <Counter />
   </View>;
