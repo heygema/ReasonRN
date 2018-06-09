@@ -1,3 +1,6 @@
+
+[![CircleCI](https://circleci.com/gh/heygema/ReasonRN/tree/master.svg?style=svg)](https://circleci.com/gh/heygema/ReasonRN/tree/master)
+
 # Getting Started / Setup
 
 1.  install npm by following the official instructions: https://www.npmjs.com/get-npm
