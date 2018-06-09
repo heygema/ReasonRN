@@ -1,5 +1,7 @@
 # Getting Started / Setup
 
+[![CircleCI](https://circleci.com/gh/heygema/ReasonRN/tree/master.svg?style=svg)](https://circleci.com/gh/heygema/ReasonRN/tree/master)
+
 1.  install npm by following the official instructions: https://www.npmjs.com/get-npm
     * (optional) install yarn using: npm -g i yarn
 2.  install bs-platform & reason-cli
