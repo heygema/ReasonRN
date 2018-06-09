@@ -15,7 +15,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "bs:test": "bsb -clean-world && bsb -make-world && jest"
   },
   "jest": {
     "preset": "jest-expo"
